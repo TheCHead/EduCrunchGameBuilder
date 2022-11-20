@@ -1,0 +1,186 @@
+
+frog.png
+size: 2026,1701
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brows sad
+  rotate: false
+  xy: 830, 1300
+  size: 876, 121
+  orig: 876, 121
+  offset: 0, 0
+  index: -1
+brows sad super
+  rotate: false
+  xy: 399, 1631
+  size: 842, 68
+  orig: 842, 68
+  offset: 0, 0
+  index: -1
+cheeks happy top
+  rotate: false
+  xy: 1027, 1423
+  size: 951, 108
+  orig: 951, 108
+  offset: 0, 0
+  index: -1
+chin sad
+  rotate: false
+  xy: 241, 1648
+  size: 156, 51
+  orig: 156, 51
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: true
+  xy: 1439, 1543
+  size: 156, 194
+  orig: 156, 194
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: true
+  xy: 1635, 1543
+  size: 156, 194
+  orig: 156, 194
+  offset: 0, 0
+  index: -1
+eye pupil 1
+  rotate: true
+  xy: 1243, 1621
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+eye pupil 2
+  rotate: true
+  xy: 1341, 1621
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+eyelish sad
+  rotate: false
+  xy: 2, 983
+  size: 944, 158
+  orig: 944, 158
+  offset: 0, 0
+  index: -1
+eyes closed
+  rotate: false
+  xy: 2, 1161
+  size: 856, 137
+  orig: 856, 137
+  offset: 0, 0
+  index: -1
+heart 1
+  rotate: false
+  xy: 1831, 1533
+  size: 193, 166
+  orig: 193, 166
+  offset: 0, 0
+  index: -1
+heart 2
+  rotate: false
+  xy: 833, 1462
+  size: 192, 167
+  orig: 192, 167
+  offset: 0, 0
+  index: -1
+mouth closed
+  rotate: false
+  xy: 2, 1550
+  size: 829, 79
+  orig: 829, 79
+  offset: 0, 0
+  index: -1
+mouth happy
+  rotate: false
+  xy: 2, 316
+  size: 831, 378
+  orig: 831, 378
+  offset: 0, 0
+  index: -1
+mouth open
+  rotate: false
+  xy: 2, 762
+  size: 827, 219
+  orig: 829, 221
+  offset: 1, 1
+  index: -1
+mouth ready to eat
+  rotate: false
+  xy: 860, 1143
+  size: 829, 155
+  orig: 829, 155
+  offset: 0, 0
+  index: -1
+mouth sad
+  rotate: false
+  xy: 2, 1419
+  size: 826, 129
+  orig: 828, 131
+  offset: 1, 1
+  index: -1
+mouth sad super
+  rotate: false
+  xy: 831, 696
+  size: 823, 285
+  orig: 825, 287
+  offset: 1, 1
+  index: -1
+mouth vomit
+  rotate: true
+  xy: 1708, 944
+  size: 477, 290
+  orig: 477, 290
+  offset: 0, 0
+  index: -1
+nostrils
+  rotate: false
+  xy: 2, 1650
+  size: 237, 49
+  orig: 237, 49
+  offset: 0, 0
+  index: -1
+vomit
+  rotate: true
+  xy: 835, 2
+  size: 692, 930
+  orig: 692, 930
+  offset: 0, 0
+  index: -1
+
+frog2.png
+size: 1492,880
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheeks happy
+  rotate: false
+  xy: 2, 2
+  size: 1403, 460
+  orig: 1403, 460
+  offset: 0, 0
+  index: -1
+cheeks sad
+  rotate: false
+  xy: 2, 464
+  size: 1488, 414
+  orig: 1490, 416
+  offset: 1, 1
+  index: -1
+
+frog3.png
+size: 1719,1472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 1715, 1468
+  orig: 1715, 1468
+  offset: 0, 0
+  index: -1

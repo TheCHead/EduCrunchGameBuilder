@@ -1,0 +1,166 @@
+
+мышки.png
+size: 2024,1733
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brows sad
+  rotate: false
+  xy: 2, 1493
+  size: 844, 137
+  orig: 844, 137
+  offset: 0, 0
+  index: -1
+cheeks eyes happy
+  rotate: false
+  xy: 910, 1148
+  size: 1032, 211
+  orig: 1032, 211
+  offset: 0, 0
+  index: -1
+cheeks happy
+  rotate: false
+  xy: 631, 488
+  size: 1359, 373
+  orig: 1359, 373
+  offset: 0, 0
+  index: -1
+ear 1
+  rotate: true
+  xy: 2, 9
+  size: 480, 627
+  orig: 480, 627
+  offset: 0, 0
+  index: -1
+ear 2
+  rotate: true
+  xy: 2, 491
+  size: 479, 627
+  orig: 479, 627
+  offset: 0, 0
+  index: -1
+eye 1
+  rotate: true
+  xy: 1634, 1361
+  size: 214, 359
+  orig: 214, 359
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: true
+  xy: 2, 1277
+  size: 214, 360
+  orig: 214, 360
+  offset: 0, 0
+  index: -1
+eye pupil 1
+  rotate: true
+  xy: 1283, 1624
+  size: 107, 179
+  orig: 107, 179
+  offset: 0, 0
+  index: -1
+eye pupil 2
+  rotate: true
+  xy: 1464, 1624
+  size: 107, 178
+  orig: 107, 178
+  offset: 0, 0
+  index: -1
+eyelish sad
+  rotate: false
+  xy: 875, 863
+  size: 897, 283
+  orig: 897, 283
+  offset: 0, 0
+  index: -1
+eyes closed
+  rotate: false
+  xy: 2, 972
+  size: 871, 245
+  orig: 871, 245
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 1814, 1577
+  size: 208, 154
+  orig: 208, 154
+  offset: 0, 0
+  index: -1
+heart 1
+  rotate: false
+  xy: 364, 1256
+  size: 271, 235
+  orig: 271, 235
+  offset: 0, 0
+  index: -1
+heart 2
+  rotate: false
+  xy: 637, 1219
+  size: 271, 236
+  orig: 271, 236
+  offset: 0, 0
+  index: -1
+mouth closed
+  rotate: false
+  xy: 2, 1685
+  size: 410, 46
+  orig: 410, 46
+  offset: 0, 0
+  index: -1
+mouth open
+  rotate: false
+  xy: 848, 1457
+  size: 442, 165
+  orig: 442, 165
+  offset: 0, 0
+  index: -1
+mouth ready to eat
+  rotate: false
+  xy: 839, 1632
+  size: 442, 99
+  orig: 442, 99
+  offset: 0, 0
+  index: -1
+mouth sad
+  rotate: false
+  xy: 414, 1648
+  size: 423, 83
+  orig: 423, 83
+  offset: 0, 0
+  index: -1
+mouth vomit
+  rotate: false
+  xy: 1292, 1412
+  size: 340, 210
+  orig: 340, 210
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 1644, 1617
+  size: 114, 168
+  orig: 114, 168
+  offset: 0, 0
+  index: -1
+vomit
+  rotate: true
+  xy: 631, 2
+  size: 484, 650
+  orig: 484, 650
+  offset: 0, 0
+  index: -1
+
+мышки2.png
+size: 1314,1444
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 1310, 1440
+  orig: 1310, 1440
+  offset: 0, 0
+  index: -1

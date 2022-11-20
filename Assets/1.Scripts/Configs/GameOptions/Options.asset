@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e877be21c3bd85b4a9e0ecc2c24aa144, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  OptionsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  Topic: {fileID: 11400000, guid: 1deac01e863307b4bb4d260381e19c75, type: 2}
+  Theme: {fileID: 11400000, guid: cc6c9ffca6bfbb04ca4a06b63ebd4312, type: 2}
+  AnswerEffects: 1
+  Pet: {fileID: 11400000, guid: 93ffb979cd000ca4d82092e2f19af43e, type: 2}
+  PetAnimations: 1
+  PetTapReaction: 1
+  ExtraPetParticles: 1
+  PetQuestionBubble: 1
+  ExtraPetAnimations: 1
+  PetFeedParticles: 1
+  Music: 1
+  AnswerSFX: 1
+  PetSFX: 1
+  WinCounter: 1
+  ProgressBar: 1
+  Hint: 1
+  ResultScreen: 0
+  ShowContributors: 0
+  Contributors: 'Chris Pratt aka Mario
+
+    Hironobu Sakaguchi
+
+    Super Sus
+
+    Shakira
+    Shakira
+
+    Dante from Devil May Cry series'
