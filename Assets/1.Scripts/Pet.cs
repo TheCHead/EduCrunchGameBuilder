@@ -182,9 +182,11 @@ public class Pet : MonoBehaviour, IPointerClickHandler
     {
         if (_options.PetTapReaction)
         {
+            _scaleTween.Kill(true);
+            Vector3 curScale = transform.localScale;
             _scaleTween = transform.DOShakeScale(0.5f, 0.2f).OnComplete(() =>
             {
-                transform.localScale = Vector3.one;
+                transform.localScale = curScale;
             });
 
             if (_options.ExtraPetParticles)

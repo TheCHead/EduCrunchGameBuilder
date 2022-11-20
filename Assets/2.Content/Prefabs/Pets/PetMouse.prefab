@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 7524302605843705764, guid: 3057438d84476b44788137ca6daab257, type: 3}
       propertyPath: skeletonDataAsset
       value: 
-      objectReference: {fileID: 11400000, guid: dc68a8e5a347c9c4893f5c8c9fd87f81, type: 2}
+      objectReference: {fileID: 11400000, guid: 52d47cc2dd5be8840978e40a24d5544c, type: 2}
     - target: {fileID: 7524302605843705765, guid: 3057438d84476b44788137ca6daab257, type: 3}
       propertyPath: m_Name
       value: PetMouse

@@ -16,9 +16,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Topic: {fileID: 11400000, guid: 1deac01e863307b4bb4d260381e19c75, type: 2}
-  Theme: {fileID: 11400000, guid: cc6c9ffca6bfbb04ca4a06b63ebd4312, type: 2}
+  Theme: {fileID: 11400000, guid: 8c5b03b3ba6ebe349810af5c545a8b3a, type: 2}
   AnswerEffects: 1
-  Pet: {fileID: 11400000, guid: 93ffb979cd000ca4d82092e2f19af43e, type: 2}
+  Pet: {fileID: 11400000, guid: fa2f336f542106141b1bd89bd7c8ef26, type: 2}
   PetAnimations: 1
   PetTapReaction: 1
   ExtraPetParticles: 1
@@ -31,7 +31,7 @@ MonoBehaviour:
   WinCounter: 1
   ProgressBar: 1
   Hint: 1
-  ResultScreen: 0
+  ResultScreen: 1
   ShowContributors: 0
   Contributors: 'Chris Pratt aka Mario
 
