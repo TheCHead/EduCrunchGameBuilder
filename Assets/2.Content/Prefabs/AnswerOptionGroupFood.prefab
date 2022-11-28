@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerOptionFood (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 825058293787820974, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f20972171666baa45b269e6725338062, type: 3}
     - target: {fileID: 825058293787820975, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -104,6 +108,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.83
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
 --- !u!4 &2260890250057763697 stripped
@@ -122,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerOptionFood (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 825058293787820974, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0447fbb188aada7418c9f4515500114a, type: 3}
     - target: {fileID: 825058293787820975, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -166,6 +182,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
 --- !u!4 &1221222575205088246 stripped
@@ -184,6 +208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerOptionFood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 825058293787820974, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f2b8824d17b3c7441b9c7b5a518c2c39, type: 3}
     - target: {fileID: 825058293787820975, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -228,6 +256,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
 --- !u!4 &3583738643949733077 stripped
@@ -246,6 +282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerOptionFood
       objectReference: {fileID: 0}
+    - target: {fileID: 825058293787820974, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e901dbf0bb49574f8e860dd56b8d282, type: 3}
     - target: {fileID: 825058293787820975, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -289,6 +329,14 @@ PrefabInstance:
     - target: {fileID: 825058293787820975, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024430827158259629, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a5bfba7066eecc48a2234bd0a1d4dfd, type: 3}

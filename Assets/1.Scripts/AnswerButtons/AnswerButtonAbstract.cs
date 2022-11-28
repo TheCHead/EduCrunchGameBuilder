@@ -12,6 +12,7 @@ public abstract class AnswerButtonAbstract : MonoBehaviour, IPointerClickHandler
     [SerializeField] private TMP_Text text;
     [SerializeField] private AudioClip rightSFX;
     [SerializeField] private AudioClip wrongSFX;
+    [SerializeField] private ParticleSystem clickParticles;
     
     private protected bool _isRight;
     
@@ -87,6 +88,10 @@ public abstract class AnswerButtonAbstract : MonoBehaviour, IPointerClickHandler
             {
                 _scaleTween.Kill(true);
                 _scaleTween = transform.DOShakeScale(0.5f, 0.3f, 1);
+                if (_options.AnswerParticles)
+                {
+                    clickParticles.Play();
+                }
             }
         }
 

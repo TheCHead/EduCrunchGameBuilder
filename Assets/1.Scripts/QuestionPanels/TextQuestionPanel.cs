@@ -9,6 +9,7 @@ public class TextQuestionPanel : MonoBehaviour, IQuestionPanel
 {
     [SerializeField] private TMP_Text text;
     private Tween _scaleTween;
+    private Options _options;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class TextQuestionPanel : MonoBehaviour, IQuestionPanel
 
     private void Start()
     {
+        _options = GameConfig.Instance.Options;
         Reset();
     }
 
@@ -36,8 +38,15 @@ public class TextQuestionPanel : MonoBehaviour, IQuestionPanel
         gameObject.SetActive(true);
         text.text = task.Question;
         _scaleTween.Kill();
-        _scaleTween = transform.DOScale(Vector3.one, 0.5f)
-            .SetEase(Ease.OutBack);
+        if (_options.AnswerEffects)
+        {
+            _scaleTween = transform.DOScale(Vector3.one, 0.5f)
+                .SetEase(Ease.OutBack);
+        }
+        else
+        {
+            transform.localScale = Vector3.one;
+        }
     }
     
     public void Reset()

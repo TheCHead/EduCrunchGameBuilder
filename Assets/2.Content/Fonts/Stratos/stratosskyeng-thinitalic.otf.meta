@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 94502ee19e96c464a86de85a0127cc61
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - StratosSkyeng
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 54ff0b635a628e148b6647138b0c11ab, type: 3}
+  - {fileID: 12800000, guid: 104ffdd0d6c547d429c8fc991dd6742d, type: 3}
+  - {fileID: 12800000, guid: f18c07dfe4706b949ad110869a63ba63, type: 3}
+  - {fileID: 12800000, guid: 02ac53647790a8840971928921222167, type: 3}
+  - {fileID: 12800000, guid: f25d0b4741176854fbd4749cf02ce449, type: 3}
+  - {fileID: 12800000, guid: 2310e00a343a39341b5e8238d4306e10, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

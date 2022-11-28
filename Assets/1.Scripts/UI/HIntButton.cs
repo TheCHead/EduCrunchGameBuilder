@@ -1,13 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HIntButton : MonoBehaviour
 {
+    [SerializeField] private AudioClip clickAudioClip;
+    
     private Button _button;
     private Options _options;
+    private Tween _scaleTween;
 
     private void Awake()
     {
@@ -35,5 +36,8 @@ public class HIntButton : MonoBehaviour
     private void OnButtonClick()
     {
         EventManager.HintCalled.Invoke();
+        _scaleTween.Kill(true);
+        _scaleTween = transform.DOShakeScale(0.5f, 0.3f);
+        AudioSource.PlayClipAtPoint(clickAudioClip, Camera.main.transform.position);
     }
 }

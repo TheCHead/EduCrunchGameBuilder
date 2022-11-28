@@ -17,22 +17,24 @@ public class Options : ScriptableObject
 
     [Header("Answer Feel")] 
     public bool AnswerEffects;
-    
-    
+    public bool AnswerSFX;
+    public bool AnswerParticles;
+
+
     [Header("Pet Settings")]
     public PetConfig Pet;
     public bool PetAnimations;
-    public bool PetTapReaction;
-    public bool ExtraPetParticles;
-    public bool PetQuestionBubble;
     public bool ExtraPetAnimations;
+    public bool PetTapReaction;
+    public bool PetQuestionBubble;
     public bool PetFeedParticles;
+    public bool ExtraPetParticles;
+    public bool PetSFX;
+    
 
     [Header("Audio")] 
     public bool Music;
-    public bool AnswerSFX;
-    public bool PetSFX;
-
+    
     [Header("UI")] 
     public bool WinCounter;
     public bool ProgressBar;
@@ -40,7 +42,6 @@ public class Options : ScriptableObject
     public bool ResultScreen;
 
     [Header("Result Screen")]
-    public bool ShowContributors;
     [TextArea(3, 10)]
     public string Contributors;
 

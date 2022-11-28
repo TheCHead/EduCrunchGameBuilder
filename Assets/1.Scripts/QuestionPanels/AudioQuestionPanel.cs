@@ -9,6 +9,7 @@ public class AudioQuestionPanel : MonoBehaviour, IQuestionPanel, IPointerClickHa
 {
     private Tween _scaleTween;
     private AudioClip _clip;
+    private Options _options;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class AudioQuestionPanel : MonoBehaviour, IQuestionPanel, IPointerClickHa
 
     private void Start()
     {
+        _options = GameConfig.Instance.Options;
         Reset();
     }
 
@@ -37,12 +39,20 @@ public class AudioQuestionPanel : MonoBehaviour, IQuestionPanel, IPointerClickHa
 
         _clip = Resources.Load<AudioClip>(Path.Combine("Audio", task.Question));
         _scaleTween.Kill();
-        _scaleTween = transform.DOScale(Vector3.one, 0.5f)
-            .SetEase(Ease.OutBack)
-            .OnComplete(() =>
-            {
-                PlayClip();
-            });
+        if (_options.AnswerEffects)
+        {
+            _scaleTween = transform.DOScale(Vector3.one, 0.5f)
+                .SetEase(Ease.OutBack)
+                .OnComplete(() =>
+                {
+                    PlayClip();
+                });
+        }
+        else
+        {
+            transform.localScale = Vector3.one;
+            PlayClip();
+        }
     }
 
 
@@ -62,7 +72,10 @@ public class AudioQuestionPanel : MonoBehaviour, IQuestionPanel, IPointerClickHa
         if (_clip != null)
         {
             AudioSource.PlayClipAtPoint(_clip, Camera.main.transform.position);
-            transform.DOShakeScale(0.3f, 0.3f, 5);
+            if (_options.AnswerEffects)
+            {
+                transform.DOShakeScale(0.3f, 0.3f, 5);
+            }
         }
     }
 }

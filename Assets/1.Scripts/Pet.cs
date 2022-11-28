@@ -42,6 +42,32 @@ public class Pet : MonoBehaviour, IPointerClickHandler
     private void Awake()
     {
         _animation = GetComponent<SkeletonAnimation>();
+        EventManager.OnRightAnswerGiven.AddListener(OnRightAnswerGivenBasic);
+        EventManager.OnWrongAnswerGiven.AddListener(OnWrongAnswerGivenBasic);
+    }
+
+    private void OnDestroy()
+    {
+        EventManager.OnRightAnswerGiven.RemoveListener(OnRightAnswerGivenBasic);
+        EventManager.OnWrongAnswerGiven.RemoveListener(OnWrongAnswerGivenBasic);
+    }
+
+    private void OnRightAnswerGivenBasic()
+    {
+        if (!_options.PetAnimations)
+        {
+            _animation.AnimationState.SetAnimation(0, "smile", false);
+            _animation.AnimationState.AddAnimation(0, "idle", true, 0);
+        }
+    }
+    
+    private void OnWrongAnswerGivenBasic()
+    {
+        if (!_options.PetAnimations)
+        {
+            _animation.AnimationState.SetAnimation(0, "sad", false);
+            _animation.AnimationState.AddAnimation(0, "idle", true, 0);
+        }
     }
 
     private void Start()
@@ -64,7 +90,7 @@ public class Pet : MonoBehaviour, IPointerClickHandler
             Hat newHat = Instantiate(hatPrefab, hatStack);
             Vector3 newPos = _lastHat != null ? _lastHat.transform.localPosition + Vector3.up * hatStep : Vector3.zero;
             newHat.transform.localPosition = newPos;
-            newHat.transform.Rotate(Vector3.forward, Random.Range(-30, 30));
+            newHat.transform.Rotate(Vector3.forward, Random.Range(-20f, 20f));
             newHat.SetSprite(hat);
         
             if (_lastHat != null)
